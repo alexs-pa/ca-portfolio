@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Roboto:wght@400;700&display=swap');
+
 *{
     color: #FFF;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body{
     margin: 0;
     padding: 0;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
 }
 
 header{
@@ -15,6 +25,18 @@ header{
     display: flex;
     justify-content: center;
     position: fixed;
+}
+
+#logo{
+    font-family: "Inspiration", sans-serif;
+    text-decoration: none;
+    color: #F1B24A;
+    font-size: 4rem;
+}
+
+#logo:hover{
+    opacity: 0.8;
+    transition: .2s;
 }
 
 #header-container{
@@ -40,11 +62,58 @@ header{
 
 #top-nav ul li a{
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 #top-nav ul li a:hover{
     color: #F1B24A;
     transition: .2s;
+}
+
+main{
+    top: 6rem;
+}
+
+#landing{
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(45deg, #164A41, #9DC88D);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about{
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(135deg, #164A41, #9DC88D);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#portfolio{
+    height: 1000px;
+    width: 100%;
+    background:linear-gradient(45deg, #164A41, #9DC88D);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact{
+    height: 1000px;
+    width: 100%;
+    background:linear-gradient(135deg, #164A41, #9DC88D);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    height: 50%;
+    width: auto;
+    border-radius: 100%;
 }
 
 

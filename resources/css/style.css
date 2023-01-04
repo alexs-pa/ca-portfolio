@@ -110,11 +110,12 @@ main{
     width: 100%;
     background:linear-gradient(135deg, #164A41, #9DC88D);
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-img{
+#portrait-pic{
     height: 50%;
     width: auto;
     border-radius: 100%;
